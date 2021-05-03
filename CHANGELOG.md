@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.1.0](https://github.com/material-components/material-components-web/compare/v11.0.0...v11.1.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* **button:** Fix non-text buttons with icons to have reduced horizontal padding on the side with the icon. ([197f64f](https://github.com/material-components/material-components-web/commit/197f64fa2a4b78907261e820c5e1e8724777c92c))
+* **chips:** Add documentation for action ([3db4d16](https://github.com/material-components/material-components-web/commit/3db4d1680bb4135c44042ac77521c8ff18032d14))
+* **fab:** Fixed Fab ripple ([84f3db9](https://github.com/material-components/material-components-web/commit/84f3db9ed03fc414f347bfd88be384fe50646bd8)), closes [#7053](https://github.com/material-components/material-components-web/issues/7053)
+* **icon-button:** prevent icon shift on press in IE11 ([8fc2927](https://github.com/material-components/material-components-web/commit/8fc29273c49f5bf5006f4df715bee85fbace9cb8))
+* **list:** Ensure trailing-only variants have leading padding in RTL contexts. ([81e2d4f](https://github.com/material-components/material-components-web/commit/81e2d4ff36518c586972aad4512b43d2bb0cd2d2))
+* **list:** Fixed the selected + focused state of list item in HCM ([8ba3e29](https://github.com/material-components/material-components-web/commit/8ba3e298ca18cf8e7e11f07559e27287e74efeb8))
+* **rtl:** do not emit if a left/right value or replacement is null ([ec4ac52](https://github.com/material-components/material-components-web/commit/ec4ac5234c31df882a85a90af4d53b6797c8eb49))
+* **rtl:** mixins work with pseudo elements ([f5b6110](https://github.com/material-components/material-components-web/commit/f5b6110d6a3c5ef1253165f5575ed3980748e19c))
+* **switch:** export temporary deprecated version ([bd68539](https://github.com/material-components/material-components-web/commit/bd685395b652f448e889c123cda97efd77c85fcd))
+* **tabscroller:** remove trailing underscore ([105b15b](https://github.com/material-components/material-components-web/commit/105b15b965e41bfaafedfb43e278cd5cb9d22195))
+* **tooltip:** Fixing component definition of MDCTooltipAdatper#deregisterAnchorEventHandler. ([d928692](https://github.com/material-components/material-components-web/commit/d928692b52157c91c46c9addf66f93ebdff09145))
+
+
+### Features
+
+* **button:** Add focus indicator to link buttons in HCM. ([cad4896](https://github.com/material-components/material-components-web/commit/cad4896899cc89b1354ba5df95c3870efbb99af5))
+* **card:** Moving ripple into a `mdc-card__ripple` element rather than the `mdc-card__primary-action`. ([8ace3b8](https://github.com/material-components/material-components-web/commit/8ace3b8106499cc9c126abde77258bcae7d5929d))
+* **dialog:** removing call to `#close` within `#destroy`. ([5631828](https://github.com/material-components/material-components-web/commit/5631828e1541df22feb879a5310e57494ee722a3))
+* **switch:** add new component and foundation ([ef43e6d](https://github.com/material-components/material-components-web/commit/ef43e6d9607c7e8d6495b4a82e2178059dbe37fa))
+* **theme:** gss.annotate supports named arguments ([c50d20b](https://github.com/material-components/material-components-web/commit/c50d20bab49d5c00dd0a74e8616d02d8d87fba89))
+* **theme:** theme.property() supports custom prop declarations ([474836a](https://github.com/material-components/material-components-web/commit/474836ad0f4f92d03ce7dd0c9f923b6ff9abac7c))
+* **tooltip:** Adds logic to determine valid position options for tooltip w/caret, and select which should be used. ([2ebfc53](https://github.com/material-components/material-components-web/commit/2ebfc537439508ea08bcd99991eed4fe838f3550))
+* **tooltip:** Adjusting logic and styles so the caret better matches spec. ([55ad2d7](https://github.com/material-components/material-components-web/commit/55ad2d7d8f9bcc979f5334352620815d6ea9add6))
+
+
+
+
+
 # [11.0.0](https://github.com/material-components/material-components-web/compare/v10.0.0...v11.0.0) (2021-04-15)
 
 
