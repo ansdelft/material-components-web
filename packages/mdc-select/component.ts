@@ -415,8 +415,7 @@ export class MDCSelect extends MDCComponent<MDCSelectFoundation> {
         this.menu.wrapFocus = wrapFocus;
       },
       getSelectedIndex: () => {
-        const index = this.menu.selectedIndex;
-        return index instanceof Array ? index[0] : index;
+        this.menu.selectedIndex;
       },
       setSelectedIndex: (index: number) => {
         this.menu.selectedIndex = index;
